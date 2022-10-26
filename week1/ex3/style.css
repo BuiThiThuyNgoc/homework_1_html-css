@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn_sub {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list {
+    margin-left: 2%;
+}
+.title_1 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.time {
+    margin-top: 20px;
+    font-style: italic;
+}
+.img {
+     margin-top: 10px;  
+     margin-bottom: 10px;
+     width: 100%;
+}
+.paragraph {
+    font-style: italic;
+}
+.title_2 {
+    font-weight: bold;
+}
+.logo_branch {
+    width: 10%;
+}
+.logo-navigos {
+    width: 20%;
+}
+.wrap {
+    display: flex;
+    margin-top: 35px;
+}

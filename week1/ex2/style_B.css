@@ -1,0 +1,37 @@
+.style_B {
+    flex-direction: row;
+    margin: auto;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.B{
+    margin-top: 6px;
+    margin-right: 45px;
+}
+.square{
+    min-width: 100px;
+    min-height: 150px;
+    border-left: 10px dotted  #D0D0FF;
+    background-color: #eeeff2;
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.square:hover{
+    background-color: rgb(247, 240, 105);
+}
+
+
+.squareF2 {
+    min-width: 100px;
+    min-height: 150px;
+    border-left: 10px dotted  #D0D0FF;
+    background-color: #eeeff2;
+    font-size: 40px;
+    position: fixed;
+    right: 0px; bottom: 0px;
+}
+.squareF2:hover{
+    background-color: rgb(247, 240, 105);
+}
