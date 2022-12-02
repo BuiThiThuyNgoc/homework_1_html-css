@@ -4,7 +4,7 @@ import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import First from "./Components/First";
 import Second from "./Components/Second";
 import Third from "./Components/Third";
@@ -38,7 +38,7 @@ export default function App({ links }) {
           <List>
             {links.map((link) => (
               <ListItem button key={link.url} components={Link} to={Link.url}>
-                <Routes>
+                <Switch>
                   <Route
                     exact
                     path={link.url}
@@ -53,7 +53,7 @@ export default function App({ links }) {
                     path="/"
                     render={() => <ListItemText primary={link.name} />}
                   />
-                </Routes>
+                </Switch>
               </ListItem>
             ))}
           </List>
